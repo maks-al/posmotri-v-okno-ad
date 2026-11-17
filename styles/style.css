@@ -82,6 +82,9 @@ ol {
 
 .content__list-container {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
   height: 298px;
   overflow-y: auto;
 }
@@ -118,4 +121,10 @@ ol {
   height: 103px;
   object-fit: cover;
   object-position: center;
+}
+
+.content__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
