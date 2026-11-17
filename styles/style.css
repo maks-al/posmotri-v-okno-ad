@@ -181,6 +181,47 @@ ol {
   outline-offset: 2px;
 }
 
+/* Общие стили кнопок */
+.button {
+  min-height: 34px;
+  padding: 0;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.search-form__submit-button {
+  align-self: flex-end;
+  width: 194px;
+}
+
+.more-button {
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
+
+.button:active {
+  background-color: #545050;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:focus-visible {
+  outline: 1px solid #fff;
+  outline-offset: 2px;
+}
+
 .content__list-container {
   position: relative;
   display: flex;
