@@ -100,3 +100,22 @@ ol {
   object-fit: cover;
   object-position: center;
 }
+
+.content__video-card {
+  display: flex;
+  align-items: flex-start;
+}
+
+.content__video-card-description-container {
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.content__video-card-thumbnail {
+  display: block;
+  width: 194px;
+  min-width: 194px;
+  height: 103px;
+  object-fit: cover;
+  object-position: center;
+}
