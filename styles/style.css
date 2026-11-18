@@ -93,7 +93,7 @@ fieldset {
 
 .search-form {
   display: flex;
-  transform: translateY(2px);
+  margin-bottom: -2px;
   justify-content: space-between;
   align-items: flex-start;
   gap: 20px;
