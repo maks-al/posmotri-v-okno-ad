@@ -169,6 +169,7 @@ fieldset {
   opacity: 0;
 }
 
+/* делаем белый квадрат в чекбоксе непрозрачным когда чекбокс выбран */
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   opacity: 1;
 }
